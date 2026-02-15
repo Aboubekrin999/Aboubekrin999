@@ -1,8 +1,8 @@
 # 💫 About Me:
-I'm Aboubekrin Mohamed Salem<br><br> Software Engineer / AI<br><br> About Me<br><br>🔭 
+I'm Aboubekrin Mohamed Salem<br><br> Software Engineer / AI<br><br> 
 
 
-## 🌐 Socials:
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/aboubekrin-mohamedsalem-475b08229/) 
 
 # 💻 Tech Stack:
@@ -11,8 +11,3 @@ I'm Aboubekrin Mohamed Salem<br><br> Software Engineer / AI<br><br> About Me<br>
 ![](https://github-readme-stats.vercel.app/api?username=Aboubekrin999&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=Aboubekrin999&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Aboubekrin999&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Aboubekrin999&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
