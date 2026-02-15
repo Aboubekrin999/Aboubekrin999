@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm Aboubekrin Mohamed Salem<br><br> Software Engineer / AI<br><br> About Me<br><br>🔭 I’m currently working on<br><br>AI assistants & LLM applications<br><br>DAKAEI Xyla (AI robot assistant)<br><br>Scalable SaaS platforms & automation systems<br><br>🤝 I’m looking to collaborate on<br><br>AI Agent<br><br>Applied AI products (not research papers)<br><br>SaaS tools solving real business problems<br><br>🛠 I’m looking for help with<br><br>Large-scale AI infrastructure<br><br>Distributed systems for AI agents<br><br>GPU optimization & inference scaling<br><br>🌱 I’m currently learning<br><br>Advanced LLM architecture & fine-tuning<br><br> AI & embedded intelligence<br><br>High-performance system design<br><br>💬 Ask me about<br><br>Building AI startups from zero<br><br>Shipping MVPs fast<br><br>Turning ideas into products people actually pay for<br><br>⚡ Fun fact<br>I run tech companies, built a gym with 300+ members in 3 months, and still ship code daily.
+I'm Aboubekrin Mohamed Salem<br><br> Software Engineer / AI<br><br> About Me<br><br>🔭 
 
 
 ## 🌐 Socials:
