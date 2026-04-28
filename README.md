@@ -1,6 +1,3 @@
-I'm Aboubekrin Mohamed Salem<br><br> Software Engineer / AI<br><br> 
-
-
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/aboubekrin-mohamedsalem-475b08229/) 
 
