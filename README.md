@@ -2,7 +2,7 @@
 
 Software engineer and MSc AI candidate based in Paris. I work in English and French.
 
-Currently building at **[DAKAEI Technologies](https://dakaeitechnologies.com)** — web, mobile, and AI delivery for clients across Mauritania, Morocco, and France.
+Currently building at **[DAKAEI Technologies](https://dakaeitechnologies.com)** — client web, mobile, and AI work.
 
 ---
 
@@ -13,7 +13,7 @@ Three connected repositories around one problem: **reading academic papers is th
 **[paper-companion](https://github.com/Aboubekrin999/paper-companion)** — RAG reading companion
 `Next.js 16` · `FastAPI` · `Supabase pgvector` · `Claude`
 
-Ingest pipeline (arXiv + PDF → parsed → chunked), a retrieval layer with a pluggable encoder protocol, a streaming chat orchestrator with prompt caching, and a retrieval eval harness with per-query metrics. **190 tests green, CI on every PR.** Magic-link auth and the library shell are live on the web side; the chat UI is not yet wired.
+Ingest pipeline (arXiv + PDF → parsed → chunked), a retrieval layer with a pluggable encoder protocol, a streaming chat orchestrator with prompt caching, and a retrieval eval harness with per-query metrics. **190 tests green, CI on every PR.** Magic-link auth and the library shell are implemented on the web side; the chat UI is not yet wired.
 
 **[bilingual-section-classifier](https://github.com/Aboubekrin999/bilingual-section-classifier)** — XLM-RoBERTa fine-tune, EN + FR
 `PyTorch` · `Hugging Face` · `Weights & Biases`
@@ -29,17 +29,17 @@ Spaced-repetition cards generated from papers already in your library, built on 
 
 ---
 
-### How I approach a build
+### How I go from problem to product
 
-Each of these repos has a `docs/DECISIONS.md` and a `docs/ROADMAP.md` that were written **before** the code.
+Each of these repos has a `docs/DECISIONS.md` and a `docs/ROADMAP.md` that were written **before** the code. I do the product work — problem, user, scope, tradeoffs — as a written artifact, then build against it.
 
-**Problem and scope before implementation.** Every README opens with the problem, who it's for, and an explicit *out of scope* list — deciding what not to build is most of the work. → [scope example](https://github.com/Aboubekrin999/paper-companion#what-v1-does)
+**Problem, user, and scope before implementation.** Every README opens with the problem, who it's for, and an explicit *out of scope* list — deciding what not to build is most of the work. → [scope example](https://github.com/Aboubekrin999/paper-companion#what-v1-does)
 
-**Decisions recorded with their rationale.** Numbered ADRs covering stack tradeoffs, what each choice costs, and what would trigger reversing it. → [ADRs](https://github.com/Aboubekrin999/paper-companion/blob/main/docs/DECISIONS.md)
+**Product and technical decisions recorded with their rationale.** Numbered ADRs covering each tradeoff, what the choice costs, and what would trigger reversing it. → [ADRs](https://github.com/Aboubekrin999/paper-companion/blob/main/docs/DECISIONS.md)
 
 **Evaluation designed to expose failure, not flatter it.** The classifier reports F1 per language on a language-stratified test set, because a single macro number hides asymmetric performance between EN and FR. → [eval design](https://github.com/Aboubekrin999/bilingual-section-classifier/blob/main/docs/DECISIONS.md)
 
-**Milestones that end in something demonstrable.** Roadmaps are week-by-week, each week closing on a working checkpoint rather than a percentage. → [roadmap](https://github.com/Aboubekrin999/paper-companion/blob/main/docs/ROADMAP.md)
+**Milestones that end in something demonstrable.** Roadmaps are week-by-week, each week closing on a working checkpoint a user could try rather than a percentage complete. → [roadmap](https://github.com/Aboubekrin999/paper-companion/blob/main/docs/ROADMAP.md)
 
 ---
 
