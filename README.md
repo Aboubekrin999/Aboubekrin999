@@ -1,4 +1,57 @@
+## Aboubekrin Mohamed Salem
 
+Software engineer and MSc AI candidate based in Paris. I work in English and French.
 
-# Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
+Currently building at **[DAKAEI Technologies](https://dakaeitechnologies.com)** — web, mobile, and AI delivery for clients across Mauritania, Morocco, and France.
+
+---
+
+### What I'm building in the open
+
+Three connected repositories around one problem: **reading academic papers is the bottleneck of an AI master's degree.** One user, one backend, three surfaces — a web app, a research model, and a mobile companion.
+
+**[paper-companion](https://github.com/Aboubekrin999/paper-companion)** — RAG reading companion
+`Next.js 16` · `FastAPI` · `Supabase pgvector` · `Claude`
+
+Ingest pipeline (arXiv + PDF → parsed → chunked), a retrieval layer with a pluggable encoder protocol, a streaming chat orchestrator with prompt caching, and a retrieval eval harness with per-query metrics. **190 tests green, CI on every PR.** Magic-link auth and the library shell are live on the web side; the chat UI is not yet wired.
+
+**[bilingual-section-classifier](https://github.com/Aboubekrin999/bilingual-section-classifier)** — XLM-RoBERTa fine-tune, EN + FR
+`PyTorch` · `Hugging Face` · `Weights & Biases`
+
+Classifies paper passages by section type, so retrieval can tell *"what did they actually do"* from *"what is the prior art."* French scientific writing — HAL, INRIA, university theses — is underserved by English-only classifiers. Label schema, dataset pipeline, language-stratified splits, training and eval scripts are in. **94 tests green.** The training run itself hasn't been executed yet.
+
+**[paper-flashcards](https://github.com/Aboubekrin999/paper-flashcards)** — mobile companion
+`React Native` · `Expo` · `TypeScript`
+
+Spaced-repetition cards generated from papers already in your library, built on paper-companion's backend rather than a second ingest pipeline. Scaffold and CI are in place; the feature build hasn't started.
+
+*These paused in May 2026 while client delivery took priority. Each README states plainly what is built and what is still planned — no roadmap item is described as shipped.*
+
+---
+
+### How I approach a build
+
+Each of these repos has a `docs/DECISIONS.md` and a `docs/ROADMAP.md` that were written **before** the code.
+
+**Problem and scope before implementation.** Every README opens with the problem, who it's for, and an explicit *out of scope* list — deciding what not to build is most of the work. → [scope example](https://github.com/Aboubekrin999/paper-companion#what-v1-does)
+
+**Decisions recorded with their rationale.** Numbered ADRs covering stack tradeoffs, what each choice costs, and what would trigger reversing it. → [ADRs](https://github.com/Aboubekrin999/paper-companion/blob/main/docs/DECISIONS.md)
+
+**Evaluation designed to expose failure, not flatter it.** The classifier reports F1 per language on a language-stratified test set, because a single macro number hides asymmetric performance between EN and FR. → [eval design](https://github.com/Aboubekrin999/bilingual-section-classifier/blob/main/docs/DECISIONS.md)
+
+**Milestones that end in something demonstrable.** Roadmaps are week-by-week, each week closing on a working checkpoint rather than a percentage. → [roadmap](https://github.com/Aboubekrin999/paper-companion/blob/main/docs/ROADMAP.md)
+
+---
+
+### Stack
+
+**Languages** Python · TypeScript · PHP · Java · C/C++
+**Backend** FastAPI · Laravel · Node.js · Django
+**Frontend** Next.js · React · Tailwind
+**Mobile** React Native / Expo · Flutter
+**ML** PyTorch · Hugging Face Transformers · pgvector · Claude API
+**Data & infra** PostgreSQL / Supabase · Docker · Vercel · GitHub Actions
+
+---
+
+📍 Paris, France  ·  ✉️ [aboubekrinmouhamedsalem@gmail.com](mailto:aboubekrinmouhamedsalem@gmail.com)
